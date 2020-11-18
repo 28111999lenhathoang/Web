@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../Image/279547.jpg');
+    background-size: cover;
+    color:white;
+}
+.loginbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:320px;
+    transform: translate(-50%,-50%);
+}
+.loginbox h1{
+    font-size: 40px;
+    border-bottom: 4px solid #FFFFFF;
+    padding: 10px 0;
+    margin-bottom: 50px;
+    float:left;
+}
+.clearfix{
+    clear:both;
+}
+.textbox{
+    width:100%;
+    border-bottom: 1px solid #FFF;
+    margin:10px 0;
+    padding:10px 0;
+    font-size: 20px;
+}
+.textbox i{
+    font-size: 22px;
+}
+.textbox input{
+    background: none;
+    border: none;
+    margin-left:15px;
+    color:#fff;
+    outline: none;
+    font-size: 22px;
+}
+.btn{
+    width:100%;
+    background:none;
+    font-size:22px;
+    color:white;
+    text-align:center;
+    margin:15px 0;
+    padding:12px 0;
+    border: 1px solid #FFFFFF;
+}
+.btn:hover{
+    background:#000;
+}
+::placeholder{
+    color:white;
+}
